@@ -9,14 +9,14 @@
 import Foundation
 
 /// Wrapper object that helps us emit events without having direct access to the event handler.
-struct EventEmitter<Handler: EventHandler> {
+public struct EventEmitter<Handler: EventHandler> {
     private var handler: Handler
     
-    init(handler: Handler) {
+    public init(handler: Handler) {
         self.handler = handler
     }
     
-    func emit(_ event: Handler.Event) {
+    public func emit(_ event: Handler.Event) {
         handler.handle(event: event)
     }
 }

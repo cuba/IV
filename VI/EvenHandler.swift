@@ -9,7 +9,7 @@
 import Foundation
 
 /// A protocol that handles events.
-protocol EventHandler {
+public protocol EventHandler {
     associatedtype Event
     func handle(event: Event)
 }

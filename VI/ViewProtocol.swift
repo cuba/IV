@@ -8,7 +8,8 @@
 
 import Foundation
 
-protocol ViewProtocol: class {
+/// A protocol that defines the View object. In other words it handles commands and emits events.
+public protocol ViewProtocol: class {
     associatedtype Interactor: InteractorProtocol
     
     var eventEmitter: EventEmitter<Interactor>? { get set }
@@ -16,7 +17,8 @@ protocol ViewProtocol: class {
     func handle(command: Interactor.Command)
 }
 
-extension ViewProtocol {
+public extension ViewProtocol {
+    /// Configure this view with an interactor. It will link the view to the interactor and vice-versa
     func configure(with interactor: inout Interactor) {
         eventEmitter = EventEmitter<Interactor>(handler: interactor)
         

@@ -12,18 +12,22 @@
 		DA634B7023CB94C6002DBECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA634B6F23CB94C6002DBECC /* Assets.xcassets */; };
 		DA634B7323CB94C6002DBECC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA634B7123CB94C6002DBECC /* LaunchScreen.storyboard */; };
 		DA634B7E23CB94C6002DBECC /* VIExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA634B7D23CB94C6002DBECC /* VIExampleTests.swift */; };
-		DA634B8923CB94C6002DBECC /* VIExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA634B8823CB94C6002DBECC /* VIExampleUITests.swift */; };
-		DA634B9923CB95CF002DBECC /* ViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA634B9823CB95CF002DBECC /* ViewProtocol.swift */; };
-		DA634B9B23CB95DE002DBECC /* InteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA634B9A23CB95DE002DBECC /* InteractorProtocol.swift */; };
-		DA634B9D23CB95F5002DBECC /* CommandEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA634B9C23CB95F5002DBECC /* CommandEmitter.swift */; };
-		DA634B9F23CB9607002DBECC /* EventEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA634B9E23CB9607002DBECC /* EventEmitter.swift */; };
-		DA634BA123CB9638002DBECC /* EvenHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA634BA023CB9638002DBECC /* EvenHandler.swift */; };
 		DA634BA623CBB2AB002DBECC /* UsersListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA634BA523CBB2AB002DBECC /* UsersListInteractor.swift */; };
 		DA634BA823CBB2B4002DBECC /* UsersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA634BA723CBB2B4002DBECC /* UsersListView.swift */; };
 		DA634BAA23CBB2BE002DBECC /* UsersListCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA634BA923CBB2BE002DBECC /* UsersListCommand.swift */; };
 		DA634BAC23CBB2C7002DBECC /* UsersListEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA634BAB23CBB2C7002DBECC /* UsersListEvent.swift */; };
 		DA634BAF23CBB34B002DBECC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA634BAE23CBB34B002DBECC /* User.swift */; };
 		DA634BB223CBB552002DBECC /* MockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA634BB123CBB552002DBECC /* MockView.swift */; };
+		DA634BC223CC15CD002DBECC /* VI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA634BB923CC15CD002DBECC /* VI.framework */; };
+		DA634BC923CC15CD002DBECC /* VITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA634BC823CC15CD002DBECC /* VITests.swift */; };
+		DA634BCB23CC15CD002DBECC /* VI.h in Headers */ = {isa = PBXBuildFile; fileRef = DA634BBB23CC15CD002DBECC /* VI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA634BCE23CC15CD002DBECC /* VI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA634BB923CC15CD002DBECC /* VI.framework */; };
+		DA634BCF23CC15CD002DBECC /* VI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DA634BB923CC15CD002DBECC /* VI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DA634BD723CC15DF002DBECC /* EvenHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA634BA023CB9638002DBECC /* EvenHandler.swift */; };
+		DA634BD823CC15DF002DBECC /* InteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA634B9A23CB95DE002DBECC /* InteractorProtocol.swift */; };
+		DA634BD923CC15DF002DBECC /* ViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA634B9823CB95CF002DBECC /* ViewProtocol.swift */; };
+		DA634BDA23CC15DF002DBECC /* CommandEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA634B9C23CB95F5002DBECC /* CommandEmitter.swift */; };
+		DA634BDB23CC15DF002DBECC /* EventEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA634B9E23CB9607002DBECC /* EventEmitter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +38,42 @@
 			remoteGlobalIDString = DA634B6223CB94C5002DBECC;
 			remoteInfo = VIExample;
 		};
-		DA634B8523CB94C6002DBECC /* PBXContainerItemProxy */ = {
+		DA634BC323CC15CD002DBECC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA634B5B23CB94C5002DBECC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA634BB823CC15CD002DBECC;
+			remoteInfo = VI;
+		};
+		DA634BC523CC15CD002DBECC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DA634B5B23CB94C5002DBECC /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DA634B6223CB94C5002DBECC;
 			remoteInfo = VIExample;
 		};
+		DA634BCC23CC15CD002DBECC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA634B5B23CB94C5002DBECC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA634BB823CC15CD002DBECC;
+			remoteInfo = VI;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DA634BD323CC15CD002DBECC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DA634BCF23CC15CD002DBECC /* VI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		DA634B6323CB94C5002DBECC /* VIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,7 +85,6 @@
 		DA634B7923CB94C6002DBECC /* VIExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA634B7D23CB94C6002DBECC /* VIExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIExampleTests.swift; sourceTree = "<group>"; };
 		DA634B7F23CB94C6002DBECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA634B8423CB94C6002DBECC /* VIExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA634B8823CB94C6002DBECC /* VIExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIExampleUITests.swift; sourceTree = "<group>"; };
 		DA634B8A23CB94C6002DBECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA634B9823CB95CF002DBECC /* ViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewProtocol.swift; sourceTree = "<group>"; };
@@ -67,6 +98,12 @@
 		DA634BAB23CBB2C7002DBECC /* UsersListEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListEvent.swift; sourceTree = "<group>"; };
 		DA634BAE23CBB34B002DBECC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		DA634BB123CBB552002DBECC /* MockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockView.swift; sourceTree = "<group>"; };
+		DA634BB923CC15CD002DBECC /* VI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA634BBB23CC15CD002DBECC /* VI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VI.h; sourceTree = "<group>"; };
+		DA634BBC23CC15CD002DBECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA634BC123CC15CD002DBECC /* VITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA634BC823CC15CD002DBECC /* VITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VITests.swift; sourceTree = "<group>"; };
+		DA634BCA23CC15CD002DBECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA634BCE23CC15CD002DBECC /* VI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,10 +122,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA634B8123CB94C6002DBECC /* Frameworks */ = {
+		DA634BB623CC15CD002DBECC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA634BBE23CC15CD002DBECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA634BC223CC15CD002DBECC /* VI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +146,8 @@
 				DA634B6523CB94C5002DBECC /* VIExample */,
 				DA634B7C23CB94C6002DBECC /* VIExampleTests */,
 				DA634B8723CB94C6002DBECC /* VIExampleUITests */,
+				DA634BBA23CC15CD002DBECC /* VI */,
+				DA634BC723CC15CD002DBECC /* VITests */,
 				DA634B6423CB94C5002DBECC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -109,7 +157,8 @@
 			children = (
 				DA634B6323CB94C5002DBECC /* VIExample.app */,
 				DA634B7923CB94C6002DBECC /* VIExampleTests.xctest */,
-				DA634B8423CB94C6002DBECC /* VIExampleUITests.xctest */,
+				DA634BB923CC15CD002DBECC /* VI.framework */,
+				DA634BC123CC15CD002DBECC /* VITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,7 +168,6 @@
 			children = (
 				DA634BAD23CBB342002DBECC /* Models */,
 				DA634BA423CBB27D002DBECC /* Users */,
-				DA634B9723CB95C0002DBECC /* Core */,
 				DA634B6623CB94C5002DBECC /* AppDelegate.swift */,
 				DA634B6823CB94C5002DBECC /* SceneDelegate.swift */,
 				DA634B6F23CB94C6002DBECC /* Assets.xcassets */,
@@ -148,18 +196,6 @@
 			path = VIExampleUITests;
 			sourceTree = "<group>";
 		};
-		DA634B9723CB95C0002DBECC /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				DA634B9823CB95CF002DBECC /* ViewProtocol.swift */,
-				DA634B9A23CB95DE002DBECC /* InteractorProtocol.swift */,
-				DA634B9C23CB95F5002DBECC /* CommandEmitter.swift */,
-				DA634B9E23CB9607002DBECC /* EventEmitter.swift */,
-				DA634BA023CB9638002DBECC /* EvenHandler.swift */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
 		DA634BA423CBB27D002DBECC /* Users */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,7 +215,41 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		DA634BBA23CC15CD002DBECC /* VI */ = {
+			isa = PBXGroup;
+			children = (
+				DA634B9823CB95CF002DBECC /* ViewProtocol.swift */,
+				DA634B9A23CB95DE002DBECC /* InteractorProtocol.swift */,
+				DA634B9C23CB95F5002DBECC /* CommandEmitter.swift */,
+				DA634B9E23CB9607002DBECC /* EventEmitter.swift */,
+				DA634BA023CB9638002DBECC /* EvenHandler.swift */,
+				DA634BBB23CC15CD002DBECC /* VI.h */,
+				DA634BBC23CC15CD002DBECC /* Info.plist */,
+			);
+			path = VI;
+			sourceTree = "<group>";
+		};
+		DA634BC723CC15CD002DBECC /* VITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA634BC823CC15CD002DBECC /* VITests.swift */,
+				DA634BCA23CC15CD002DBECC /* Info.plist */,
+			);
+			path = VITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DA634BB423CC15CD002DBECC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA634BCB23CC15CD002DBECC /* VI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		DA634B6223CB94C5002DBECC /* VIExample */ = {
@@ -189,10 +259,12 @@
 				DA634B5F23CB94C5002DBECC /* Sources */,
 				DA634B6023CB94C5002DBECC /* Frameworks */,
 				DA634B6123CB94C5002DBECC /* Resources */,
+				DA634BD323CC15CD002DBECC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DA634BCD23CC15CD002DBECC /* PBXTargetDependency */,
 			);
 			name = VIExample;
 			productName = VIExample;
@@ -217,23 +289,42 @@
 			productReference = DA634B7923CB94C6002DBECC /* VIExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DA634B8323CB94C6002DBECC /* VIExampleUITests */ = {
+		DA634BB823CC15CD002DBECC /* VI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA634B9323CB94C6002DBECC /* Build configuration list for PBXNativeTarget "VIExampleUITests" */;
+			buildConfigurationList = DA634BD023CC15CD002DBECC /* Build configuration list for PBXNativeTarget "VI" */;
 			buildPhases = (
-				DA634B8023CB94C6002DBECC /* Sources */,
-				DA634B8123CB94C6002DBECC /* Frameworks */,
-				DA634B8223CB94C6002DBECC /* Resources */,
+				DA634BB423CC15CD002DBECC /* Headers */,
+				DA634BB523CC15CD002DBECC /* Sources */,
+				DA634BB623CC15CD002DBECC /* Frameworks */,
+				DA634BB723CC15CD002DBECC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DA634B8623CB94C6002DBECC /* PBXTargetDependency */,
 			);
-			name = VIExampleUITests;
-			productName = VIExampleUITests;
-			productReference = DA634B8423CB94C6002DBECC /* VIExampleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
+			name = VI;
+			productName = VI;
+			productReference = DA634BB923CC15CD002DBECC /* VI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DA634BC023CC15CD002DBECC /* VITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA634BD423CC15CD002DBECC /* Build configuration list for PBXNativeTarget "VITests" */;
+			buildPhases = (
+				DA634BBD23CC15CD002DBECC /* Sources */,
+				DA634BBE23CC15CD002DBECC /* Frameworks */,
+				DA634BBF23CC15CD002DBECC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA634BC423CC15CD002DBECC /* PBXTargetDependency */,
+				DA634BC623CC15CD002DBECC /* PBXTargetDependency */,
+			);
+			name = VITests;
+			productName = VITests;
+			productReference = DA634BC123CC15CD002DBECC /* VITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -252,13 +343,16 @@
 						CreatedOnToolsVersion = 11.3;
 						TestTargetID = DA634B6223CB94C5002DBECC;
 					};
-					DA634B8323CB94C6002DBECC = {
+					DA634BB823CC15CD002DBECC = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					DA634BC023CC15CD002DBECC = {
 						CreatedOnToolsVersion = 11.3;
 						TestTargetID = DA634B6223CB94C5002DBECC;
 					};
 				};
 			};
-			buildConfigurationList = DA634B5E23CB94C5002DBECC /* Build configuration list for PBXProject "VIExample" */;
+			buildConfigurationList = DA634B5E23CB94C5002DBECC /* Build configuration list for PBXProject "VI" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -273,7 +367,8 @@
 			targets = (
 				DA634B6223CB94C5002DBECC /* VIExample */,
 				DA634B7823CB94C6002DBECC /* VIExampleTests */,
-				DA634B8323CB94C6002DBECC /* VIExampleUITests */,
+				DA634BB823CC15CD002DBECC /* VI */,
+				DA634BC023CC15CD002DBECC /* VITests */,
 			);
 		};
 /* End PBXProject section */
@@ -295,7 +390,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA634B8223CB94C6002DBECC /* Resources */ = {
+		DA634BB723CC15CD002DBECC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA634BBF23CC15CD002DBECC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -311,15 +413,10 @@
 			files = (
 				DA634BAF23CBB34B002DBECC /* User.swift in Sources */,
 				DA634BAA23CBB2BE002DBECC /* UsersListCommand.swift in Sources */,
-				DA634BA123CB9638002DBECC /* EvenHandler.swift in Sources */,
-				DA634B9F23CB9607002DBECC /* EventEmitter.swift in Sources */,
 				DA634BAC23CBB2C7002DBECC /* UsersListEvent.swift in Sources */,
-				DA634B9D23CB95F5002DBECC /* CommandEmitter.swift in Sources */,
 				DA634BA623CBB2AB002DBECC /* UsersListInteractor.swift in Sources */,
-				DA634B9B23CB95DE002DBECC /* InteractorProtocol.swift in Sources */,
 				DA634B6723CB94C5002DBECC /* AppDelegate.swift in Sources */,
 				DA634BA823CBB2B4002DBECC /* UsersListView.swift in Sources */,
-				DA634B9923CB95CF002DBECC /* ViewProtocol.swift in Sources */,
 				DA634B6923CB94C5002DBECC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,11 +430,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA634B8023CB94C6002DBECC /* Sources */ = {
+		DA634BB523CC15CD002DBECC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA634B8923CB94C6002DBECC /* VIExampleUITests.swift in Sources */,
+				DA634BDA23CC15DF002DBECC /* CommandEmitter.swift in Sources */,
+				DA634BD823CC15DF002DBECC /* InteractorProtocol.swift in Sources */,
+				DA634BD923CC15DF002DBECC /* ViewProtocol.swift in Sources */,
+				DA634BDB23CC15DF002DBECC /* EventEmitter.swift in Sources */,
+				DA634BD723CC15DF002DBECC /* EvenHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA634BBD23CC15CD002DBECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA634BC923CC15CD002DBECC /* VITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,10 +458,20 @@
 			target = DA634B6223CB94C5002DBECC /* VIExample */;
 			targetProxy = DA634B7A23CB94C6002DBECC /* PBXContainerItemProxy */;
 		};
-		DA634B8623CB94C6002DBECC /* PBXTargetDependency */ = {
+		DA634BC423CC15CD002DBECC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA634BB823CC15CD002DBECC /* VI */;
+			targetProxy = DA634BC323CC15CD002DBECC /* PBXContainerItemProxy */;
+		};
+		DA634BC623CC15CD002DBECC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = DA634B6223CB94C5002DBECC /* VIExample */;
-			targetProxy = DA634B8523CB94C6002DBECC /* PBXContainerItemProxy */;
+			targetProxy = DA634BC523CC15CD002DBECC /* PBXContainerItemProxy */;
+		};
+		DA634BCD23CC15CD002DBECC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA634BB823CC15CD002DBECC /* VI */;
+			targetProxy = DA634BCC23CC15CD002DBECC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -485,6 +604,7 @@
 		DA634B8E23CB94C6002DBECC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5P99QDD6WR;
@@ -503,6 +623,7 @@
 		DA634B8F23CB94C6002DBECC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5P99QDD6WR;
@@ -562,50 +683,108 @@
 			};
 			name = Release;
 		};
-		DA634B9423CB94C6002DBECC /* Debug */ = {
+		DA634BD123CC15CD002DBECC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 5P99QDD6WR;
-				INFOPLIST_FILE = VIExampleUITests/Info.plist;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = VI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jacobsikorski.VIExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobsikorski.VI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = VIExample;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		DA634B9523CB94C6002DBECC /* Release */ = {
+		DA634BD223CC15CD002DBECC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 5P99QDD6WR;
-				INFOPLIST_FILE = VIExampleUITests/Info.plist;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = VI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jacobsikorski.VIExampleUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobsikorski.VI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DA634BD523CC15CD002DBECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5P99QDD6WR;
+				INFOPLIST_FILE = VITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobsikorski.VITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = VIExample;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VIExample.app/VIExample";
+			};
+			name = Debug;
+		};
+		DA634BD623CC15CD002DBECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5P99QDD6WR;
+				INFOPLIST_FILE = VITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobsikorski.VITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VIExample.app/VIExample";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DA634B5E23CB94C5002DBECC /* Build configuration list for PBXProject "VIExample" */ = {
+		DA634B5E23CB94C5002DBECC /* Build configuration list for PBXProject "VI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA634B8B23CB94C6002DBECC /* Debug */,
@@ -632,11 +811,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA634B9323CB94C6002DBECC /* Build configuration list for PBXNativeTarget "VIExampleUITests" */ = {
+		DA634BD023CC15CD002DBECC /* Build configuration list for PBXNativeTarget "VI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DA634B9423CB94C6002DBECC /* Debug */,
-				DA634B9523CB94C6002DBECC /* Release */,
+				DA634BD123CC15CD002DBECC /* Debug */,
+				DA634BD223CC15CD002DBECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA634BD423CC15CD002DBECC /* Build configuration list for PBXNativeTarget "VITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA634BD523CC15CD002DBECC /* Debug */,
+				DA634BD623CC15CD002DBECC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import VI
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 

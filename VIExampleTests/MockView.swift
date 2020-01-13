@@ -6,6 +6,7 @@
 //  Copyright © 2020 Jacob Sikorski. All rights reserved.
 //
 
+import VI
 @testable import VIExample
 
 class MockView<I: InteractorProtocol>: ViewProtocol {
