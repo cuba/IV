@@ -20,8 +20,11 @@ class UsersListView: UITableViewController, ViewProtocol {
         super.viewDidLoad()
         self.title = "Users"
         
+        // This configuraton can be moved outside into an assembly if you prefer
         var interator = UsersListInteractor()
         configure(with: &interator)
+        
+        // Emit an event
         eventEmitter?.emit(.didLoadView)
     }
     
