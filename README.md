@@ -135,14 +135,14 @@ $ brew update
 $ brew install carthage
 ```
 
-To integrate PiuPiu into your Xcode project using Carthage, specify it in your `Cartfile`:
+To integrate IV into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ogdl
 github "cuba/IV"
 ```
 
-Run `carthage update` to build the framework and drag the built `PiuPiu.framework` into your Xcode project.
+Run `carthage update` to build the framework and drag the built `IV.framework` into your Xcode project.
 
 ## License
 
-PiuPiu is released under the MIT license. [See LICENSE](https://github.com/cuba/IV/blob/master/LICENSE) for details
+IV is released under the MIT license. [See LICENSE](https://github.com/cuba/IV/blob/master/LICENSE) for details
