@@ -7,8 +7,8 @@
 //
 
 import XCTest
-import VI
-@testable import VIExample
+import IV
+@testable import IVExample
 
 class VIExampleTests: XCTestCase {
     func testInteractor() {

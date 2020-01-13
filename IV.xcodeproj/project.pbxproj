@@ -11,23 +11,23 @@
 		DA634B6923CB94C5002DBECC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA634B6823CB94C5002DBECC /* SceneDelegate.swift */; };
 		DA634B7023CB94C6002DBECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA634B6F23CB94C6002DBECC /* Assets.xcassets */; };
 		DA634B7323CB94C6002DBECC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA634B7123CB94C6002DBECC /* LaunchScreen.storyboard */; };
-		DA634B7E23CB94C6002DBECC /* VIExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA634B7D23CB94C6002DBECC /* VIExampleTests.swift */; };
 		DA634BA623CBB2AB002DBECC /* UsersListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA634BA523CBB2AB002DBECC /* UsersListInteractor.swift */; };
 		DA634BA823CBB2B4002DBECC /* UsersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA634BA723CBB2B4002DBECC /* UsersListView.swift */; };
 		DA634BAA23CBB2BE002DBECC /* UsersListCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA634BA923CBB2BE002DBECC /* UsersListCommand.swift */; };
 		DA634BAC23CBB2C7002DBECC /* UsersListEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA634BAB23CBB2C7002DBECC /* UsersListEvent.swift */; };
 		DA634BAF23CBB34B002DBECC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA634BAE23CBB34B002DBECC /* User.swift */; };
-		DA634BB223CBB552002DBECC /* MockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA634BB123CBB552002DBECC /* MockView.swift */; };
-		DA634BC223CC15CD002DBECC /* VI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA634BB923CC15CD002DBECC /* VI.framework */; };
-		DA634BC923CC15CD002DBECC /* VITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA634BC823CC15CD002DBECC /* VITests.swift */; };
-		DA634BCB23CC15CD002DBECC /* VI.h in Headers */ = {isa = PBXBuildFile; fileRef = DA634BBB23CC15CD002DBECC /* VI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA634BCE23CC15CD002DBECC /* VI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA634BB923CC15CD002DBECC /* VI.framework */; };
-		DA634BCF23CC15CD002DBECC /* VI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DA634BB923CC15CD002DBECC /* VI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DA634BC223CC15CD002DBECC /* IV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA634BB923CC15CD002DBECC /* IV.framework */; };
+		DA634BC923CC15CD002DBECC /* IVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA634BC823CC15CD002DBECC /* IVTests.swift */; };
+		DA634BCE23CC15CD002DBECC /* IV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA634BB923CC15CD002DBECC /* IV.framework */; };
+		DA634BCF23CC15CD002DBECC /* IV.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DA634BB923CC15CD002DBECC /* IV.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DA634BD723CC15DF002DBECC /* EvenHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA634BA023CB9638002DBECC /* EvenHandler.swift */; };
 		DA634BD823CC15DF002DBECC /* InteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA634B9A23CB95DE002DBECC /* InteractorProtocol.swift */; };
 		DA634BD923CC15DF002DBECC /* ViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA634B9823CB95CF002DBECC /* ViewProtocol.swift */; };
 		DA634BDA23CC15DF002DBECC /* CommandEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA634B9C23CB95F5002DBECC /* CommandEmitter.swift */; };
 		DA634BDB23CC15DF002DBECC /* EventEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA634B9E23CB9607002DBECC /* EventEmitter.swift */; };
+		DA634BDF23CC1ED3002DBECC /* MockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA634BB123CBB552002DBECC /* MockView.swift */; };
+		DA634BE223CC1FD0002DBECC /* IVExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA634BE123CC1FD0002DBECC /* IVExampleTests.swift */; };
+		DA634BE423CC23DC002DBECC /* ViewProtocol+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA634BE323CC23DC002DBECC /* ViewProtocol+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +43,7 @@
 			containerPortal = DA634B5B23CB94C5002DBECC /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DA634BB823CC15CD002DBECC;
-			remoteInfo = VI;
+			remoteInfo = IV;
 		};
 		DA634BC523CC15CD002DBECC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -57,7 +57,7 @@
 			containerPortal = DA634B5B23CB94C5002DBECC /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DA634BB823CC15CD002DBECC;
-			remoteInfo = VI;
+			remoteInfo = IV;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -68,7 +68,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				DA634BCF23CC15CD002DBECC /* VI.framework in Embed Frameworks */,
+				DA634BCF23CC15CD002DBECC /* IV.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,17 +76,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DA634B6323CB94C5002DBECC /* VIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA634B6323CB94C5002DBECC /* IVExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IVExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA634B6623CB94C5002DBECC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA634B6823CB94C5002DBECC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DA634B6F23CB94C6002DBECC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA634B7223CB94C6002DBECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA634B7423CB94C6002DBECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA634B7923CB94C6002DBECC /* VIExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA634B7D23CB94C6002DBECC /* VIExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIExampleTests.swift; sourceTree = "<group>"; };
-		DA634B7F23CB94C6002DBECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA634B8823CB94C6002DBECC /* VIExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIExampleUITests.swift; sourceTree = "<group>"; };
-		DA634B8A23CB94C6002DBECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA634B7923CB94C6002DBECC /* IVExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IVExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA634B9823CB95CF002DBECC /* ViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewProtocol.swift; sourceTree = "<group>"; };
 		DA634B9A23CB95DE002DBECC /* InteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractorProtocol.swift; sourceTree = "<group>"; };
 		DA634B9C23CB95F5002DBECC /* CommandEmitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandEmitter.swift; sourceTree = "<group>"; };
@@ -98,12 +94,15 @@
 		DA634BAB23CBB2C7002DBECC /* UsersListEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListEvent.swift; sourceTree = "<group>"; };
 		DA634BAE23CBB34B002DBECC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		DA634BB123CBB552002DBECC /* MockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockView.swift; sourceTree = "<group>"; };
-		DA634BB923CC15CD002DBECC /* VI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA634BBB23CC15CD002DBECC /* VI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VI.h; sourceTree = "<group>"; };
+		DA634BB923CC15CD002DBECC /* IV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA634BBC23CC15CD002DBECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA634BC123CC15CD002DBECC /* VITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA634BC823CC15CD002DBECC /* VITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VITests.swift; sourceTree = "<group>"; };
+		DA634BC123CC15CD002DBECC /* IVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA634BC823CC15CD002DBECC /* IVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IVTests.swift; sourceTree = "<group>"; };
 		DA634BCA23CC15CD002DBECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA634BDC23CC19F5002DBECC /* IV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IV.h; sourceTree = "<group>"; };
+		DA634BE023CC1FB6002DBECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA634BE123CC1FD0002DBECC /* IVExampleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVExampleTests.swift; sourceTree = "<group>"; };
+		DA634BE323CC23DC002DBECC /* ViewProtocol+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewProtocol+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA634BCE23CC15CD002DBECC /* VI.framework in Frameworks */,
+				DA634BCE23CC15CD002DBECC /* IV.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,7 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA634BC223CC15CD002DBECC /* VI.framework in Frameworks */,
+				DA634BC223CC15CD002DBECC /* IV.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,11 +142,10 @@
 		DA634B5A23CB94C5002DBECC = {
 			isa = PBXGroup;
 			children = (
-				DA634B6523CB94C5002DBECC /* VIExample */,
-				DA634B7C23CB94C6002DBECC /* VIExampleTests */,
-				DA634B8723CB94C6002DBECC /* VIExampleUITests */,
-				DA634BBA23CC15CD002DBECC /* VI */,
-				DA634BC723CC15CD002DBECC /* VITests */,
+				DA634B6523CB94C5002DBECC /* IVExample */,
+				DA634B7C23CB94C6002DBECC /* IVExampleTests */,
+				DA634BBA23CC15CD002DBECC /* IV */,
+				DA634BC723CC15CD002DBECC /* IVTests */,
 				DA634B6423CB94C5002DBECC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -155,15 +153,15 @@
 		DA634B6423CB94C5002DBECC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DA634B6323CB94C5002DBECC /* VIExample.app */,
-				DA634B7923CB94C6002DBECC /* VIExampleTests.xctest */,
-				DA634BB923CC15CD002DBECC /* VI.framework */,
-				DA634BC123CC15CD002DBECC /* VITests.xctest */,
+				DA634B6323CB94C5002DBECC /* IVExample.app */,
+				DA634B7923CB94C6002DBECC /* IVExampleTests.xctest */,
+				DA634BB923CC15CD002DBECC /* IV.framework */,
+				DA634BC123CC15CD002DBECC /* IVTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DA634B6523CB94C5002DBECC /* VIExample */ = {
+		DA634B6523CB94C5002DBECC /* IVExample */ = {
 			isa = PBXGroup;
 			children = (
 				DA634BAD23CBB342002DBECC /* Models */,
@@ -174,26 +172,16 @@
 				DA634B7123CB94C6002DBECC /* LaunchScreen.storyboard */,
 				DA634B7423CB94C6002DBECC /* Info.plist */,
 			);
-			path = VIExample;
+			path = IVExample;
 			sourceTree = "<group>";
 		};
-		DA634B7C23CB94C6002DBECC /* VIExampleTests */ = {
+		DA634B7C23CB94C6002DBECC /* IVExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				DA634B7D23CB94C6002DBECC /* VIExampleTests.swift */,
-				DA634B7F23CB94C6002DBECC /* Info.plist */,
-				DA634BB123CBB552002DBECC /* MockView.swift */,
+				DA634BE123CC1FD0002DBECC /* IVExampleTests.swift */,
+				DA634BE023CC1FB6002DBECC /* Info.plist */,
 			);
-			path = VIExampleTests;
-			sourceTree = "<group>";
-		};
-		DA634B8723CB94C6002DBECC /* VIExampleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DA634B8823CB94C6002DBECC /* VIExampleUITests.swift */,
-				DA634B8A23CB94C6002DBECC /* Info.plist */,
-			);
-			path = VIExampleUITests;
+			path = IVExampleTests;
 			sourceTree = "<group>";
 		};
 		DA634BA423CBB27D002DBECC /* Users */ = {
@@ -215,27 +203,29 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		DA634BBA23CC15CD002DBECC /* VI */ = {
+		DA634BBA23CC15CD002DBECC /* IV */ = {
 			isa = PBXGroup;
 			children = (
+				DA634BDC23CC19F5002DBECC /* IV.h */,
 				DA634B9823CB95CF002DBECC /* ViewProtocol.swift */,
+				DA634BE323CC23DC002DBECC /* ViewProtocol+Extensions.swift */,
 				DA634B9A23CB95DE002DBECC /* InteractorProtocol.swift */,
 				DA634B9C23CB95F5002DBECC /* CommandEmitter.swift */,
 				DA634B9E23CB9607002DBECC /* EventEmitter.swift */,
 				DA634BA023CB9638002DBECC /* EvenHandler.swift */,
-				DA634BBB23CC15CD002DBECC /* VI.h */,
+				DA634BB123CBB552002DBECC /* MockView.swift */,
 				DA634BBC23CC15CD002DBECC /* Info.plist */,
 			);
-			path = VI;
+			path = IV;
 			sourceTree = "<group>";
 		};
-		DA634BC723CC15CD002DBECC /* VITests */ = {
+		DA634BC723CC15CD002DBECC /* IVTests */ = {
 			isa = PBXGroup;
 			children = (
-				DA634BC823CC15CD002DBECC /* VITests.swift */,
+				DA634BC823CC15CD002DBECC /* IVTests.swift */,
 				DA634BCA23CC15CD002DBECC /* Info.plist */,
 			);
-			path = VITests;
+			path = IVTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,16 +235,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA634BCB23CC15CD002DBECC /* VI.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		DA634B6223CB94C5002DBECC /* VIExample */ = {
+		DA634B6223CB94C5002DBECC /* IVExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA634B8D23CB94C6002DBECC /* Build configuration list for PBXNativeTarget "VIExample" */;
+			buildConfigurationList = DA634B8D23CB94C6002DBECC /* Build configuration list for PBXNativeTarget "IVExample" */;
 			buildPhases = (
 				DA634B5F23CB94C5002DBECC /* Sources */,
 				DA634B6023CB94C5002DBECC /* Frameworks */,
@@ -266,14 +255,14 @@
 			dependencies = (
 				DA634BCD23CC15CD002DBECC /* PBXTargetDependency */,
 			);
-			name = VIExample;
+			name = IVExample;
 			productName = VIExample;
-			productReference = DA634B6323CB94C5002DBECC /* VIExample.app */;
+			productReference = DA634B6323CB94C5002DBECC /* IVExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DA634B7823CB94C6002DBECC /* VIExampleTests */ = {
+		DA634B7823CB94C6002DBECC /* IVExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA634B9023CB94C6002DBECC /* Build configuration list for PBXNativeTarget "VIExampleTests" */;
+			buildConfigurationList = DA634B9023CB94C6002DBECC /* Build configuration list for PBXNativeTarget "IVExampleTests" */;
 			buildPhases = (
 				DA634B7523CB94C6002DBECC /* Sources */,
 				DA634B7623CB94C6002DBECC /* Frameworks */,
@@ -284,14 +273,14 @@
 			dependencies = (
 				DA634B7B23CB94C6002DBECC /* PBXTargetDependency */,
 			);
-			name = VIExampleTests;
+			name = IVExampleTests;
 			productName = VIExampleTests;
-			productReference = DA634B7923CB94C6002DBECC /* VIExampleTests.xctest */;
+			productReference = DA634B7923CB94C6002DBECC /* IVExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DA634BB823CC15CD002DBECC /* VI */ = {
+		DA634BB823CC15CD002DBECC /* IV */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA634BD023CC15CD002DBECC /* Build configuration list for PBXNativeTarget "VI" */;
+			buildConfigurationList = DA634BD023CC15CD002DBECC /* Build configuration list for PBXNativeTarget "IV" */;
 			buildPhases = (
 				DA634BB423CC15CD002DBECC /* Headers */,
 				DA634BB523CC15CD002DBECC /* Sources */,
@@ -302,14 +291,14 @@
 			);
 			dependencies = (
 			);
-			name = VI;
-			productName = VI;
-			productReference = DA634BB923CC15CD002DBECC /* VI.framework */;
+			name = IV;
+			productName = IV;
+			productReference = DA634BB923CC15CD002DBECC /* IV.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DA634BC023CC15CD002DBECC /* VITests */ = {
+		DA634BC023CC15CD002DBECC /* IVTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA634BD423CC15CD002DBECC /* Build configuration list for PBXNativeTarget "VITests" */;
+			buildConfigurationList = DA634BD423CC15CD002DBECC /* Build configuration list for PBXNativeTarget "IVTests" */;
 			buildPhases = (
 				DA634BBD23CC15CD002DBECC /* Sources */,
 				DA634BBE23CC15CD002DBECC /* Frameworks */,
@@ -321,9 +310,9 @@
 				DA634BC423CC15CD002DBECC /* PBXTargetDependency */,
 				DA634BC623CC15CD002DBECC /* PBXTargetDependency */,
 			);
-			name = VITests;
+			name = IVTests;
 			productName = VITests;
-			productReference = DA634BC123CC15CD002DBECC /* VITests.xctest */;
+			productReference = DA634BC123CC15CD002DBECC /* IVTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -341,6 +330,7 @@
 					};
 					DA634B7823CB94C6002DBECC = {
 						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
 						TestTargetID = DA634B6223CB94C5002DBECC;
 					};
 					DA634BB823CC15CD002DBECC = {
@@ -352,7 +342,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DA634B5E23CB94C5002DBECC /* Build configuration list for PBXProject "VI" */;
+			buildConfigurationList = DA634B5E23CB94C5002DBECC /* Build configuration list for PBXProject "IV" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -365,10 +355,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DA634B6223CB94C5002DBECC /* VIExample */,
-				DA634B7823CB94C6002DBECC /* VIExampleTests */,
-				DA634BB823CC15CD002DBECC /* VI */,
-				DA634BC023CC15CD002DBECC /* VITests */,
+				DA634B6223CB94C5002DBECC /* IVExample */,
+				DA634B7823CB94C6002DBECC /* IVExampleTests */,
+				DA634BB823CC15CD002DBECC /* IV */,
+				DA634BC023CC15CD002DBECC /* IVTests */,
 			);
 		};
 /* End PBXProject section */
@@ -425,8 +415,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA634BB223CBB552002DBECC /* MockView.swift in Sources */,
-				DA634B7E23CB94C6002DBECC /* VIExampleTests.swift in Sources */,
+				DA634BE223CC1FD0002DBECC /* IVExampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +425,8 @@
 			files = (
 				DA634BDA23CC15DF002DBECC /* CommandEmitter.swift in Sources */,
 				DA634BD823CC15DF002DBECC /* InteractorProtocol.swift in Sources */,
+				DA634BDF23CC1ED3002DBECC /* MockView.swift in Sources */,
+				DA634BE423CC23DC002DBECC /* ViewProtocol+Extensions.swift in Sources */,
 				DA634BD923CC15DF002DBECC /* ViewProtocol.swift in Sources */,
 				DA634BDB23CC15DF002DBECC /* EventEmitter.swift in Sources */,
 				DA634BD723CC15DF002DBECC /* EvenHandler.swift in Sources */,
@@ -446,7 +437,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA634BC923CC15CD002DBECC /* VITests.swift in Sources */,
+				DA634BC923CC15CD002DBECC /* IVTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,22 +446,22 @@
 /* Begin PBXTargetDependency section */
 		DA634B7B23CB94C6002DBECC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DA634B6223CB94C5002DBECC /* VIExample */;
+			target = DA634B6223CB94C5002DBECC /* IVExample */;
 			targetProxy = DA634B7A23CB94C6002DBECC /* PBXContainerItemProxy */;
 		};
 		DA634BC423CC15CD002DBECC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DA634BB823CC15CD002DBECC /* VI */;
+			target = DA634BB823CC15CD002DBECC /* IV */;
 			targetProxy = DA634BC323CC15CD002DBECC /* PBXContainerItemProxy */;
 		};
 		DA634BC623CC15CD002DBECC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DA634B6223CB94C5002DBECC /* VIExample */;
+			target = DA634B6223CB94C5002DBECC /* IVExample */;
 			targetProxy = DA634BC523CC15CD002DBECC /* PBXContainerItemProxy */;
 		};
 		DA634BCD23CC15CD002DBECC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DA634BB823CC15CD002DBECC /* VI */;
+			target = DA634BB823CC15CD002DBECC /* IV */;
 			targetProxy = DA634BCC23CC15CD002DBECC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -608,12 +599,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5P99QDD6WR;
-				INFOPLIST_FILE = VIExample/Info.plist;
+				INFOPLIST_FILE = IVExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jacobsikorski.VIExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobsikorski.IVExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -627,12 +618,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5P99QDD6WR;
-				INFOPLIST_FILE = VIExample/Info.plist;
+				INFOPLIST_FILE = IVExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jacobsikorski.VIExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobsikorski.IVExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -644,20 +635,22 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5P99QDD6WR;
-				INFOPLIST_FILE = VIExampleTests/Info.plist;
+				INFOPLIST_FILE = IVExampleTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jacobsikorski.VIExampleTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobsikorski.IVExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VIExample.app/VIExample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IVExample.app/IVExample";
 			};
 			name = Debug;
 		};
@@ -666,20 +659,21 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5P99QDD6WR;
-				INFOPLIST_FILE = VIExampleTests/Info.plist;
+				INFOPLIST_FILE = IVExampleTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jacobsikorski.VIExampleTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobsikorski.IVExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VIExample.app/VIExample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IVExample.app/IVExample";
 			};
 			name = Release;
 		};
@@ -687,14 +681,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 5P99QDD6WR;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = VI/Info.plist;
+				INFOPLIST_FILE = IV/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -702,8 +696,10 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jacobsikorski.VI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobsikorski.IV;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -716,14 +712,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 5P99QDD6WR;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = VI/Info.plist;
+				INFOPLIST_FILE = IV/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -731,8 +727,10 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jacobsikorski.VI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobsikorski.IV;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -747,7 +745,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5P99QDD6WR;
-				INFOPLIST_FILE = VITests/Info.plist;
+				INFOPLIST_FILE = IVTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -757,7 +755,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VIExample.app/VIExample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IVExample.app/IVExample";
 			};
 			name = Debug;
 		};
@@ -767,7 +765,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5P99QDD6WR;
-				INFOPLIST_FILE = VITests/Info.plist;
+				INFOPLIST_FILE = IVTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -777,14 +775,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VIExample.app/VIExample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IVExample.app/IVExample";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DA634B5E23CB94C5002DBECC /* Build configuration list for PBXProject "VI" */ = {
+		DA634B5E23CB94C5002DBECC /* Build configuration list for PBXProject "IV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA634B8B23CB94C6002DBECC /* Debug */,
@@ -793,7 +791,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA634B8D23CB94C6002DBECC /* Build configuration list for PBXNativeTarget "VIExample" */ = {
+		DA634B8D23CB94C6002DBECC /* Build configuration list for PBXNativeTarget "IVExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA634B8E23CB94C6002DBECC /* Debug */,
@@ -802,7 +800,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA634B9023CB94C6002DBECC /* Build configuration list for PBXNativeTarget "VIExampleTests" */ = {
+		DA634B9023CB94C6002DBECC /* Build configuration list for PBXNativeTarget "IVExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA634B9123CB94C6002DBECC /* Debug */,
@@ -811,7 +809,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA634BD023CC15CD002DBECC /* Build configuration list for PBXNativeTarget "VI" */ = {
+		DA634BD023CC15CD002DBECC /* Build configuration list for PBXNativeTarget "IV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA634BD123CC15CD002DBECC /* Debug */,
@@ -820,7 +818,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA634BD423CC15CD002DBECC /* Build configuration list for PBXNativeTarget "VITests" */ = {
+		DA634BD423CC15CD002DBECC /* Build configuration list for PBXNativeTarget "IVTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA634BD523CC15CD002DBECC /* Debug */,

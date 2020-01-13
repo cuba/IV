@@ -1,15 +1,15 @@
 //
-//  VITests.swift
-//  VITests
+//  IVTests.swift
+//  IVTests
 //
 //  Created by Jacob Sikorski on 2020-01-12.
 //  Copyright © 2020 Jacob Sikorski. All rights reserved.
 //
 
 import XCTest
-@testable import VI
+@testable import IV
 
-class VITests: XCTestCase {
+class IVTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

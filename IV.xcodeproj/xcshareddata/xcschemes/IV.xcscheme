@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DA634BB823CC15CD002DBECC"
-               BuildableName = "VI.framework"
-               BlueprintName = "VI"
-               ReferencedContainer = "container:VI.xcodeproj">
+               BuildableName = "IV.framework"
+               BlueprintName = "IV"
+               ReferencedContainer = "container:IV.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -51,9 +51,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DA634BB823CC15CD002DBECC"
-            BuildableName = "VI.framework"
-            BlueprintName = "VI"
-            ReferencedContainer = "container:VI.xcodeproj">
+            BuildableName = "IV.framework"
+            BlueprintName = "IV"
+            ReferencedContainer = "container:IV.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

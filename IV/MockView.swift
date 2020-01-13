@@ -6,21 +6,18 @@
 //  Copyright © 2020 Jacob Sikorski. All rights reserved.
 //
 
-import VI
-@testable import VIExample
-
-class MockView<I: InteractorProtocol>: ViewProtocol {
+public class MockView<I: InteractorProtocol>: ViewProtocol {
     // MARK: - Injected
-    var eventEmitter: EventEmitter<I>?
+    public var eventEmitter: EventEmitter<I>?
     private var commandCallback: ((I.Command) -> Void)?
     
-    init() {}
+    public init() {}
     
-    func handle(command: I.Command) {
+    public func handle(command: I.Command) {
         commandCallback?(command)
     }
     
-    func emit(_ event: I.Event, callback: @escaping (I.Command) -> Void) {
+    public func emit(_ event: I.Event, callback: @escaping (I.Command) -> Void) {
         self.commandCallback = callback
         eventEmitter?.emit(event)
     }

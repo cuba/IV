@@ -1,13 +1,13 @@
 //
 //  UsersListInteractor.swift
-//  VIExample
+//  IVExample
 //
 //  Created by Jacob Sikorski on 2020-01-12.
 //  Copyright © 2020 Jacob Sikorski. All rights reserved.
 //
 
 import Foundation
-import VI
+import IV
 
 class UsersListInteractor: InteractorProtocol {
     // MARK: - Injected
