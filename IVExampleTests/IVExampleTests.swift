@@ -15,7 +15,7 @@ class VIExampleTests: XCTestCase {
         let showItemsTriggered = expectation(description: "Show users triggered")
         let view = MockView<UsersListInteractor>()
         var interactor = UsersListInteractor()
-        view.configure(with: &interactor)
+        view.link(&interactor)
         
         view.emit(.didLoadView) { command in
             switch command {

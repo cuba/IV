@@ -22,7 +22,7 @@ class UsersListView: UITableViewController, ViewProtocol {
         
         // This configuraton can be moved outside into an assembly if you prefer
         var interator = UsersListInteractor()
-        configure(with: &interator)
+        link(&interator)
         
         // Emit an event
         eventEmitter?.emit(.didLoadView)

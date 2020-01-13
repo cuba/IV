@@ -10,7 +10,7 @@ import Foundation
 
 public extension ViewProtocol {
     /// Configure this view with an interactor. It will link the view to the interactor and vice-versa
-    func configure(with interactor: inout Interactor) {
+    func link(_ interactor: inout Interactor) {
         eventEmitter = EventEmitter<Interactor>(handler: interactor)
         
         let commandEmitter = CommandEmitter<Interactor.Command>(callback: { [weak self] command in
@@ -18,5 +18,10 @@ public extension ViewProtocol {
         })
         
         interactor.commandEmitter = commandEmitter
+    }
+    
+    @available(*, deprecated, renamed: "link")
+    func configure(interactor: inout Interactor) {
+        link(&interactor)
     }
 }
