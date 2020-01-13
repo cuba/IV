@@ -55,9 +55,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
     private func makeRootViewController() -> UIViewController {
         let viewController = UsersListView(style: .grouped)
-        var interactor = UsersListInteractor()
-        viewController.configure(with: &interactor)
-        
         return UINavigationController(rootViewController: viewController)
     }
 }

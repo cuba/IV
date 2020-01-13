@@ -20,6 +20,8 @@ class UsersListView: UITableViewController, ViewProtocol {
         super.viewDidLoad()
         self.title = "Users"
         
+        var interator = UsersListInteractor()
+        configure(with: &interator)
         eventEmitter?.emit(.didLoadView)
     }
     
