@@ -28,6 +28,7 @@
 		DA634BDF23CC1ED3002DBECC /* MockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA634BB123CBB552002DBECC /* MockView.swift */; };
 		DA634BE223CC1FD0002DBECC /* IVExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA634BE123CC1FD0002DBECC /* IVExampleTests.swift */; };
 		DA634BE423CC23DC002DBECC /* ViewProtocol+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA634BE323CC23DC002DBECC /* ViewProtocol+Extensions.swift */; };
+		DA634BE623CC36FC002DBECC /* UserViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA634BE523CC36FC002DBECC /* UserViewItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +104,7 @@
 		DA634BE023CC1FB6002DBECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA634BE123CC1FD0002DBECC /* IVExampleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVExampleTests.swift; sourceTree = "<group>"; };
 		DA634BE323CC23DC002DBECC /* ViewProtocol+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewProtocol+Extensions.swift"; sourceTree = "<group>"; };
+		DA634BE523CC36FC002DBECC /* UserViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 		DA634BA423CBB27D002DBECC /* Users List */ = {
 			isa = PBXGroup;
 			children = (
+				DA634BE523CC36FC002DBECC /* UserViewItem.swift */,
 				DA634BA523CBB2AB002DBECC /* UsersListInteractor.swift */,
 				DA634BA723CBB2B4002DBECC /* UsersListView.swift */,
 				DA634BA923CBB2BE002DBECC /* UsersListCommand.swift */,
@@ -407,6 +410,7 @@
 				DA634BA623CBB2AB002DBECC /* UsersListInteractor.swift in Sources */,
 				DA634B6723CB94C5002DBECC /* AppDelegate.swift in Sources */,
 				DA634BA823CBB2B4002DBECC /* UsersListView.swift in Sources */,
+				DA634BE623CC36FC002DBECC /* UserViewItem.swift in Sources */,
 				DA634B6923CB94C5002DBECC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

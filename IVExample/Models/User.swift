@@ -12,4 +12,8 @@ struct User: Identifiable {
     let id: UUID
     let firstName: String
     let lastName: String
+    
+    var fullName: String {
+        return [firstName, lastName].joined(separator: " ")
+    }
 }

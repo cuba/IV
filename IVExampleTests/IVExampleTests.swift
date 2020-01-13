@@ -12,20 +12,20 @@ import IV
 
 class VIExampleTests: XCTestCase {
     func testInteractor() {
-        let showUsersTriggered = expectation(description: "Show users triggered")
+        let showItemsTriggered = expectation(description: "Show users triggered")
         let view = MockView<UsersListInteractor>()
         var interactor = UsersListInteractor()
         view.configure(with: &interactor)
         
         view.emit(.didLoadView) { command in
             switch command {
-            case .showUsers:
-                showUsersTriggered.fulfill()
+            case .showItems:
+                showItemsTriggered.fulfill()
             }
         }
         
         wait(for: [
-            showUsersTriggered
+            showItemsTriggered
         ], timeout: 10, enforceOrder: true)
     }
 }

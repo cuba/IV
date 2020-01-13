@@ -9,5 +9,5 @@
 import Foundation
 
 enum UsersListCommand {
-    case showUsers([User])
+    case showItems([SimpleListItem])
 }

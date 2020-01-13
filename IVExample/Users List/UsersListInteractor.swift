@@ -31,6 +31,7 @@ class UsersListInteractor: InteractorProtocol {
             User(id: UUID(), firstName: "Kevin", lastName: "Malone")
         ]
         
-        commandEmitter?.emit(.showUsers(users))
+        let items = users.map({ SimpleListItem(title: $0.fullName, subtitle: $0.id.uuidString) })
+        commandEmitter?.emit(.showItems(items))
     }
 }

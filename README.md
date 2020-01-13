@@ -6,6 +6,7 @@ A simple framework for the IV design pattern
 ### Interactor
 
 ```swift
+import Foundation
 import IV
 
 class UsersListInteractor: InteractorProtocol {
@@ -30,7 +31,8 @@ class UsersListInteractor: InteractorProtocol {
             User(id: UUID(), firstName: "Kevin", lastName: "Malone")
         ]
         
-        commandEmitter?.emit(.showUsers(users))
+        let items = users.map({ SimpleListItem(title: $0.fullName, subtitle: $0.id.uuidString) })
+        commandEmitter?.emit(.showItems(items))
     }
 }
 ```
@@ -44,9 +46,8 @@ class UsersListView: UITableViewController, ViewProtocol {
     // MARK: - Injected
     var eventEmitter: EventEmitter<UsersListInteractor>?
     
-    // We can replace this with view models
     private let reuseIdentifier = "cell"
-    private var users: [User] = []
+    private var items: [SimpleListItem] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -57,8 +58,8 @@ class UsersListView: UITableViewController, ViewProtocol {
     
     func handle(command: UsersListCommand) {
         switch command {
-        case .showUsers(let users):
-            self.users = users
+        case .showItems(let items):
+            self.items = items
             tableView.reloadData()
         }
     }
@@ -66,14 +67,14 @@ class UsersListView: UITableViewController, ViewProtocol {
 
 extension UsersListView {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return users.count
+        return items.count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier) ?? UITableViewCell(style: .subtitle, reuseIdentifier: reuseIdentifier)
-        let user = users[indexPath.row]
-        cell.textLabel?.text = [user.firstName, user.lastName].joined(separator: " ")
-        cell.detailTextLabel?.text = user.id.uuidString
+        let item = items[indexPath.row]
+        cell.textLabel?.text = item.title
+        cell.detailTextLabel?.text = item.subtitle
         
         return cell
     }
@@ -84,7 +85,7 @@ extension UsersListView {
 
 ```swift
 enum UsersListCommand {
-    case showUsers([User])
+    case showItems([SimpleListItem])
 }
 ```
 
@@ -95,7 +96,15 @@ enum UsersListEvent {
 }
 ```
 
-### Test
+### View items
+```swift
+struct SimpleListItem {
+    var title: String
+    var subtitle: String
+}
+```
+
+### Testing
 ```swift
 import XCTest
 import IV
@@ -103,20 +112,20 @@ import IV
 
 class VIExampleTests: XCTestCase {
     func testInteractor() {
-        let showUsersTriggered = expectation(description: "Show users triggered")
+        let showItemsTriggered = expectation(description: "Show users triggered")
         let view = MockView<UsersListInteractor>()
         var interactor = UsersListInteractor()
         view.configure(with: &interactor)
         
         view.emit(.didLoadView) { command in
             switch command {
-            case .showUsers:
-                showUsersTriggered.fulfill()
+            case .showItems:
+                showItemsTriggered.fulfill()
             }
         }
         
         wait(for: [
-            showUsersTriggered
+            showItemsTriggered
         ], timeout: 10, enforceOrder: true)
     }
 }
