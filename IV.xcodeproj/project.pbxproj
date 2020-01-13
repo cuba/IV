@@ -165,7 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				DA634BAD23CBB342002DBECC /* Models */,
-				DA634BA423CBB27D002DBECC /* Users */,
+				DA634BA423CBB27D002DBECC /* Users List */,
 				DA634B6623CB94C5002DBECC /* AppDelegate.swift */,
 				DA634B6823CB94C5002DBECC /* SceneDelegate.swift */,
 				DA634B6F23CB94C6002DBECC /* Assets.xcassets */,
@@ -184,7 +184,7 @@
 			path = IVExampleTests;
 			sourceTree = "<group>";
 		};
-		DA634BA423CBB27D002DBECC /* Users */ = {
+		DA634BA423CBB27D002DBECC /* Users List */ = {
 			isa = PBXGroup;
 			children = (
 				DA634BA523CBB2AB002DBECC /* UsersListInteractor.swift */,
@@ -192,7 +192,7 @@
 				DA634BA923CBB2BE002DBECC /* UsersListCommand.swift */,
 				DA634BAB23CBB2C7002DBECC /* UsersListEvent.swift */,
 			);
-			path = Users;
+			path = "Users List";
 			sourceTree = "<group>";
 		};
 		DA634BAD23CBB342002DBECC /* Models */ = {
