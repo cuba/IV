@@ -32,7 +32,7 @@ class UsersListInteractor: InteractorProtocol {
         ]
         
         let items = users.map({ SimpleListItem(title: $0.fullName, subtitle: $0.id.uuidString) })
-        commandEmitter?.emit(.showItems(items))
+        emit(.showItems(items))
     }
 }
 ```

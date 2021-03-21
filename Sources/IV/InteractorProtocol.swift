@@ -15,7 +15,7 @@ public protocol InteractorProtocol: class, EventHandler {
     var commandEmitter: CommandEmitter<Command>? { get set }
 }
 
-extension InteractorProtocol {
+public extension InteractorProtocol {
     func emit(command: Command) {
         commandEmitter?.emit(command)
     }

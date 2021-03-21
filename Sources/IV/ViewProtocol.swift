@@ -17,7 +17,7 @@ public protocol ViewProtocol: class {
     func handle(command: Interactor.Command)
 }
 
-extension ViewProtocol {
+public extension ViewProtocol {
     func emit(event: Interactor.Event) {
         eventEmitter?.emit(event)
     }

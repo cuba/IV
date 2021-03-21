@@ -27,7 +27,7 @@ class UsersListView: UITableViewController, ViewProtocol {
         link(&interator)
         
         // Emit an event
-        eventEmitter?.emit(.didLoadView)
+        emit(event: .didLoadView)
     }
     
     func handle(command: UsersListCommand) {
