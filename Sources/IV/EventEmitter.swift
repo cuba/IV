@@ -10,7 +10,7 @@ import Foundation
 
 /// Wrapper object that helps us emit events without having direct access to the event handler.
 public struct EventEmitter<Handler: EventHandler> {
-    private var handler: Handler
+    let handler: Handler
     
     public init(handler: Handler) {
         self.handler = handler

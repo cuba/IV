@@ -6,19 +6,17 @@
 //  Copyright © 2020 Jacob Sikorski. All rights reserved.
 //
 
-public class MockView<I: InteractorProtocol>: ViewProtocol {
+public class MockView<Interactor: InteractorProtocol>: ViewProtocol {
     // MARK: - Injected
-    public var eventEmitter: EventEmitter<I>?
-    private var commandCallback: ((I.Command) -> Void)?
+    public var eventEmitter: EventEmitter<Interactor>?
+    private var commandCallback: ((Interactor.Command) -> Void)?
     
-    public init() {}
-    
-    public func handle(command: I.Command) {
+    public func handle(command: Interactor.Command) {
         commandCallback?(command)
     }
     
-    public func emit(_ event: I.Event, callback: @escaping (I.Command) -> Void) {
+    public func emit(_ event: Interactor.Event, callback: @escaping (Interactor.Command) -> Void) {
         self.commandCallback = callback
-        eventEmitter?.emit(event)
+        emit(event: event)
     }
 }
