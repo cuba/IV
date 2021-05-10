@@ -5,8 +5,8 @@ final class IVTests: XCTestCase {
     func testEmittersFullCycle() {
         let showItemsTriggered = expectation(description: "Show users triggered")
         let view = MockView<MockInteractor>()
-        var interactor = MockInteractor()
-        view.link(&interactor)
+        let interactor = MockInteractor()
+        view.link(interactor)
         
         view.emit(.didLoadView) { command in
             switch command {
@@ -22,8 +22,8 @@ final class IVTests: XCTestCase {
     
     func testRetainCycles() {
         var view: MockView<MockInteractor>? = MockView<MockInteractor>()
-        var interactor: MockInteractor? = MockInteractor()
-        view?.link(&interactor!)
+        let interactor: MockInteractor? = MockInteractor()
+        view?.link(interactor!)
         weak var weakInteractor = interactor
         interactor = nil
         

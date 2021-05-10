@@ -53,8 +53,8 @@ class UsersListView: UITableViewController, ViewProtocol {
         super.viewDidLoad()
         self.title = "Users"
         
-        var interator = UsersListInteractor()
-        link(&interator)
+        let interator = UsersListInteractor()
+        link(interator)
         eventEmitter?.emit(.didLoadView)
     }
     
@@ -116,8 +116,8 @@ class VIExampleTests: XCTestCase {
     func testInteractor() {
         let showItemsTriggered = expectation(description: "Show users triggered")
         let view = MockView<UsersListInteractor>()
-        var interactor = UsersListInteractor()
-        view.configure(with: &interactor)
+        let interactor = UsersListInteractor()
+        view.configure(with: interactor)
         
         view.emit(.didLoadView) { command in
             switch command {

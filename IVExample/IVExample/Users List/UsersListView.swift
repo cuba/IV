@@ -23,8 +23,8 @@ class UsersListView: UITableViewController, ViewProtocol {
         tableView.dataSource = self
         
         // This configuraton can be moved outside into an assembly if you prefer
-        var interator = UsersListInteractor()
-        link(&interator)
+        let interator = UsersListInteractor()
+        link(interator)
         
         // Emit an event
         emit(event: .didLoadView)
