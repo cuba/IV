@@ -1,5 +1,5 @@
 # IV
-A simple framework for the IV design pattern
+A simple framework for the IV design pattern. The IV pattern is based off of VIPER minus all the fluff and removes potential for baklava code by enforcing strong walls between layers. 
 
 ## Example
 
@@ -135,24 +135,9 @@ class VIExampleTests: XCTestCase {
 
 ## Installation
 
-### Carthage
+### SPM
 
-[Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks.
-
-You can install Carthage with [Homebrew](http://brew.sh/) using the following command:
-
-```bash
-$ brew update
-$ brew install carthage
-```
-
-To integrate IV into your Xcode project using Carthage, specify it in your `Cartfile`:
-
-```ogdl
-github "cuba/IV"
-```
-
-Run `carthage update` to build the framework and drag the built `IV.framework` into your Xcode project.
+IV is built for SPM! SPM is Apple's dependency managment system and is built into Xcode. It is the best way to manage dependencies for iOS, macOS and catalyst applications. To learn how to use SPM, please visit the SPM page [here](https://swift.org/package-manager/)
 
 ## License
 
