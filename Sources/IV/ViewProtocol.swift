@@ -9,7 +9,7 @@
 import Foundation
 
 /// A protocol that defines the View object. In other words it handles commands and emits events.
-public protocol ViewProtocol: class {
+public protocol ViewProtocol: AnyObject {
     associatedtype Interactor: InteractorProtocol
     
     var eventEmitter: EventEmitter<Interactor>? { get set }

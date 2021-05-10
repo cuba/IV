@@ -9,7 +9,7 @@
 import Foundation
 
 /// A protocol that defines the Interactor object. In other words it handles events and emits commands.
-public protocol InteractorProtocol: class, EventHandler {
+public protocol InteractorProtocol: AnyObject, EventHandler {
     associatedtype Command
     
     var commandEmitter: CommandEmitter<Command>? { get set }
